@@ -8,14 +8,14 @@ public class Movimentacao {
 	private LocalDate data;
 
     public Float getValor() {
-        return valor;
+        return this.valor;
     }
 
     public String getTipo() {
-        return tipo;
+        return this.tipo;
     }
 
     public LocalDate getData() {
-        return data;
+        return this.data;
     }
 }

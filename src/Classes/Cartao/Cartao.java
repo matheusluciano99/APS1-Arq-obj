@@ -9,7 +9,7 @@ public class Cartao {
 	private String status;
 
     public String getNumeroCartao() {
-        return numeroCartao;
+        return this.numeroCartao;
     }
 
     public void setNumeroCartao(String numeroCartao) {
@@ -17,7 +17,7 @@ public class Cartao {
     }
 
     public String getTipo() {
-        return tipo;
+        return this.tipo;
     }
 
     public void setTipo(String tipo) {
@@ -25,7 +25,7 @@ public class Cartao {
     }
 
     public LocalDate getValidade() {
-        return validade;
+        return this.validade;
     }
 
     public void setValidade(LocalDate validade) {
@@ -33,7 +33,7 @@ public class Cartao {
     }
 
     public String getStatus() {
-        return status;
+        return this.status;
     }
 
     public void setStatus(String status) {

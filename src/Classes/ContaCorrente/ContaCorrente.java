@@ -9,7 +9,7 @@ public class ContaCorrente {
 	private Float limite;
 
     public String getAgencia() {
-        return agencia;
+        return this.agencia;
     }
 
     public void setAgencia(String agencia) {
@@ -17,7 +17,7 @@ public class ContaCorrente {
     }
 
     public String getNumero() {
-        return numero;
+        return this.numero;
     }
 
     public void setNumero(String numero) {
@@ -25,11 +25,11 @@ public class ContaCorrente {
     }
 
     public Float getSaldo() {
-        return saldo;
+        return this.saldo;
     }
 
     public Float getLimite() {
-        return limite;
+        return this.limite;
     }
 
 	public Float saque(Float valor){

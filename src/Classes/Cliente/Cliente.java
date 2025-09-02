@@ -9,7 +9,7 @@ public class Cliente {
 	private Float salario;
 
     public String getCpf() {
-        return cpf;
+        return this.cpf;
     }
 
     public void setCpf(String cpf) {
@@ -17,7 +17,7 @@ public class Cliente {
     }
 
     public String getNome() {
-        return nome;
+        return this.nome;
     }
 
     public void setNome(String nome) {
@@ -25,7 +25,7 @@ public class Cliente {
     }
 
     public LocalDate getDataNascimento() {
-        return dataNascimento;
+        return this.dataNascimento;
     }
 
     public void setDataNascimento(LocalDate dataNascimento) {
@@ -33,7 +33,7 @@ public class Cliente {
     }
 
     public Float getSalario() {
-        return salario;
+        return this.salario;
     }
 
     public void setSalario(Float salario) {
