@@ -3,9 +3,15 @@ package Classes.Movimentacao;
 import java.time.LocalDate;
 
 public class Movimentacao {
-	private Float valor;
-	private String tipo;
-	private LocalDate data;
+    private final Float valor;
+    private final String tipo;
+    private final LocalDate data;
+
+    public Movimentacao(Float valor, String tipo, LocalDate data) {
+        this.valor = valor;
+        this.tipo = tipo;
+        this.data = data;
+    }
 
     public Float getValor() {
         return this.valor;

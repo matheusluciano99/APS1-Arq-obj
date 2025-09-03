@@ -8,6 +8,13 @@ public class Cartao {
 	private LocalDate validade;
 	private String status;
 
+    public Cartao(String numeroCartao, String tipo, LocalDate validade) {
+        this.numeroCartao = numeroCartao;
+        this.tipo = tipo;
+        this.validade = validade;
+        this.status = "ATIVO";
+    }
+
     public String getNumeroCartao() {
         return this.numeroCartao;
     }
@@ -45,7 +52,9 @@ public class Cartao {
 	}
 
 	public Boolean cancelaCartao(){
-		setStatus("CANCELADO");
+		if ("CANCELADO".equals(this.status))
+			return false;
+		this.status = "CANCELADO";
 		return true;
 	}
 }
